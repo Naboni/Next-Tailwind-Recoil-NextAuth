@@ -85,7 +85,7 @@ function Header() {
               <HeartIcon className="navBtn" />
 
               <img
-                onClick={signOut}
+                onClick={() => signOut()}
                 src={session?.user?.image}
                 alt="profile pic"
                 className="h-10 w-10 cursor-pointer rounded-full"
